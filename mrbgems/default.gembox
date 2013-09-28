@@ -50,6 +50,9 @@ MRuby::GemBox.new do |conf|
   # Use Fiber class
   conf.gem :core => "mruby-fiber"
 
+  # Use partial continuation stuff
+  conf.gem :core => "mruby-partcont"
+
   # Use extended toplevel object (main) methods
   conf.gem :core => "mruby-toplevel-ext"
 
